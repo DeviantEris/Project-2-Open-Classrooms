@@ -1,0 +1,447 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+.itbegins {
+  position: absolute;
+}
+body {
+  min-height: 100vh;
+  width: 992px;
+  padding: 25px;
+}
+/*Find a place for your dream vacation!*/
+#dreams {
+  color: #000000;
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: -0.75px;
+  padding-bottom: 0;
+}
+#downtown {
+  font-size: 14px;
+  margin-top: -0.75px;
+  line-height: 1.8;
+}
+#Activities {
+  color: #000000;
+  font: 12px;
+  font-weight: 650;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  color:
+}
+#Accommodations {
+  border-top: 1px solid blue;
+  padding-top: 30px;
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  font-weight: 650;
+  font: 12px;
+  text-decoration: none;
+}
+#coco {
+  font: 14px;
+  position: relative;
+}
+/*The Searchbar!*/
+input[type="text"] {
+  padding: 4px;
+  margin-top: 10px;
+  font: 16.7px;
+  border: solid 0.5px;
+  float: left;
+  width: 190px;
+  height: 28px;
+  font-weight: 700;
+}
+/*The search button!*/
+.button {
+  background-color: blue;
+  color: white;
+  height: 30px;
+  width: 60px;
+  display: block;
+  padding-top: 8px;
+  text-align: center;
+  border-radius: 0px 10px 10px 0px;
+  float: left;
+  margin-top: 10px;
+  text-decoration: none;
+}
+#placeicon {
+  box-sizing: border-box;
+  background-color: #d3d3d3;
+  height: 38px;
+  width: 35px;
+  border-radius: 10px 0px 0px 10px;
+  padding-top: 9px;
+  padding-left: 13px;
+  float: left;
+  margin-top: 10px;
+  color: #000000;
+}
+/*accommodations and activities alignment*/
+.thewords {
+  text-align: right;
+  position: relative;
+  padding-top: 30px;
+  word-spacing: 80px;
+  padding-right: 20px;
+}
+/* mouse over-lights, camera! */
+.smallcircle:hover {
+  -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+/*action! mouse over ends!*/
+/*options for the hotel!*/
+.numberCircle {
+  color: grey;
+  display: inline-block;
+  border-radius: 35px;
+  border: 1px solid;
+  font: 8px;
+  margin: 7px;
+  height: 45px;
+  width: 135.5px;
+}
+.numberCircle span {
+  display: inline-block;
+  text-align: center;
+}
+.smallcircle {
+  background: #deebff;
+  width: 45px;
+  height: 45px;
+  border-radius: 35px;
+  font: 35px;
+}
+/*hotel options*/
+.unma {
+  color: black;
+  position: absolute;
+  padding-left: 50px;
+  top: 30px;
+  font-weight: 700;
+  font-size: 80%;
+}
+#glee {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+#flee {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+#plee {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+#blee {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+/*flossy aligns the filter*/
+.flossy {
+  padding: 4px;
+  margin-top: 5px;
+  font: 16.7px;
+  position: relative;
+  left: 5px;
+  display: flex;
+}
+#filters {
+  line-height: 6;
+  font-weight: 700;
+  font-size: 80%;
+}
+/*sizing and coloring the info circle!*/
+#infocircle {
+  color: blue;
+  background-color: white;
+  filter: invert;
+}
+
+/*Box!*/
+/*&#8364; is a Euro!*/
+.card {
+  width: 200px;
+  height: 165px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 20px;
+  line-height: 20px;
+  font: 12px;
+  padding-top: 7px;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 3% 3% 3% 1%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.Card2 {
+  width: 90%;
+  height: 120px;
+  display: block;
+  position: relative;
+  background-color: white;
+  margin: 20px 20px 20px 20px;
+  border-radius: 20px;
+  line-height: 20px;
+  font: 12px;
+  margin-top: 15px;
+  margin-right: 150px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.Card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.Ceres {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+/*box encasing accommodations in Marseille*/
+.roundbox1 {
+  flex-basis: auto;
+  height: 500px;
+  width: 700px;
+  border-radius: 20px 20px 20px 20px;
+  justify-content: left;
+  background-color: #f2f2f2; /*grey!*/
+  position: relative;
+  margin: 0 30px 0 0;
+}
+/*Box encasing most popular options*/
+.roundbox2 {
+  flex-basis: auto;
+  float: left;
+  height: 500px;
+  width: 320px;
+  border-radius: 20px 20px 20px 20px;
+  background: #f2f2f2; /*grey!*/
+  flex-direction: row;
+  margin: 0 0 3% 0;
+}
+.hotelbox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: inherit;
+}
+.hotelbox2 {
+  display: flex;
+  align-items: center;
+}
+.checked {
+  color: blue;
+}
+.vacationimages {
+  text-align: center;
+  image-rendering: pixelated;
+}
+.hotspots {
+  border-radius: 20px 20px 0 0;
+}
+.hotspots2 {
+  border-radius: 20px 0 0 20px;
+  float: left;
+  margin: 5px;
+  text-align: justify;
+}
+/*cards ends!*/
+/*removes underline from images that are clickable*/
+.Clickable {
+  text-decoration: none;
+  color: black;
+}
+.starrydays {
+  text-align: left;
+  text-indent: 3px;
+  padding-left: 15px;
+  line-height: 0.5;
+  position: absolute;
+  letter-spacing: -3.5px;
+}
+.starrydays2 {
+  text-align: left;
+  text-indent: 4px;
+  padding-right: 65px;
+  line-height: 0.5;
+  position: relative;
+  letter-spacing: -3.5px;
+}
+/*shifting the card images and text around!*/
+#shifters {
+  padding-left: 15px;
+  padding-top: 20px;
+  font: 18px;
+}
+.shifters2 {
+  padding-right: 1px;
+  padding-bottom: 2px;
+  font: 16px;
+  text-align: right;
+}
+#Showmore {
+  padding-left: 15px;
+  font: 16px;
+  line-height: 80%;
+}
+#mostest {
+  position: relative;
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 30px;
+  font: 20px;
+  font-weight: 700;
+}
+#chartline {
+  position: relative;
+  text-align: right;
+  padding-right: 20px;
+  font: 18px;
+  margin-top: -5%;
+}
+.vacationimages2 {
+  text-align: right;
+  image-rendering: pixelated;
+}
+div.desc {
+  padding: 1px;
+  text-align: left;
+  text-indent: 15px;
+  line-height: 0;
+  font-size: 12px;
+  padding-top: 8px;
+}
+div.desc2 {
+  padding: 1px;
+  text-align: left;
+  text-indent: 15px;
+  font-size: 12px;
+}
+section {
+  position: absolute;
+  left: 10px;
+}
+.marsielleactiv {
+  width: 1345px;
+  height: 400px;
+  padding: 1px;
+  margin: 10px;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: left;
+  position: relative;
+  margin-top: 50px;
+}
+#action {
+  font-weight: 700;
+  text-indent: 10px;
+}
+.marsiellecard1 {
+  width: 220px;
+  height: 325px;
+  text-align: center;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 0;
+}
+.marsiellecard1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.marsiellecard2 {
+  width: 220px;
+  height: 150px;
+  margin: 1%;
+  text-align: center;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  justify-content: space-between;
+  margin-bottom: 11%;
+}
+.marsiellecard2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.marsiellecard3 {
+  width: 220px;
+  height: 140px;
+  margin: 1%;
+  text-align: center;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.marsiellecard3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.marsiellecard4 {
+  width: 220px;
+  height: 150px;
+  margin: 1%;
+  text-align: center;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-bottom: 8%;
+}
+.marsiellecard4:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.marsielleimage {
+  border-radius: 20px 20px 20px 20px;
+  image-rendering: pixelated;
+}
+.serpent {
+  text-align: left;
+  font-weight: 700;
+  text-indent: 10px;
+}
+.marsiellecolumn {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: inline-block;
+  margin: 12px;
+}
+.TheEnd {
+  width: 992px;
+  background-color: #f2f2f2;
+  height: 270px;
+  line-height: 15px;
+  display: flex;
+}
+.EndCards {
+  display: inline-block;
+  width: 220px;
+  height: 240px;
+  padding-bottom: 18px;
+  margin: 3px;
+  padding-top:5%;
+  padding-left:5%;
+}
+.specs {
+  font-weight: 700;
+}
+ul {
+  list-style-type: none;
+  text-indent: -40px;
+}
+li {
+  line-height: 1.8;
+}
+@media only screen and (max-width: 992px) {
+  body {
+    background-color: pink;
+  }
+}
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  } 

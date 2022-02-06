@@ -162,7 +162,6 @@ input[type="text"] {
   background-color: white;
   filter: invert;
 }
-
 /*Box!*/
 /*&#8364; is a Euro!*/
 .card {
@@ -434,8 +433,15 @@ ul {
 li {
   line-height: 1.8;
 }
-@media only screen and (max-width: 768px) {
+/*tablet sizing*/
+@media only screen and (width: 768px) {
     body {
       background-color: lightblue;
     }
   } 
+  /*mobilephone sizing*/
+  @media only screen and (max-width: 767px) {
+    body {
+      background-color: dodgerblue;
+    } 
+  }

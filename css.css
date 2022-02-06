@@ -28,7 +28,7 @@ body {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  color:
+  color:black;
 }
 #Accommodations {
   border-top: 1px solid blue;
@@ -433,11 +433,6 @@ ul {
 }
 li {
   line-height: 1.8;
-}
-@media only screen and (max-width: 992px) {
-  body {
-    background-color: pink;
-  }
 }
 @media only screen and (max-width: 768px) {
     body {

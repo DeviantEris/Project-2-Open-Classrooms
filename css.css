@@ -125,6 +125,8 @@ input[type="text"] {
   top: 30px;
   font-weight: 700;
   font-size: 80%;
+  margin-top: -45px;
+  width: max-content;
 }
 #glee {
   margin-top: 15px;

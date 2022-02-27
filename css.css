@@ -173,9 +173,11 @@ input[type="text"] {
   line-height: 20px;
   font: 12px;
   padding-top: 7px;
+  padding-left:7px;
+  padding-right:7px;
   text-align: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
+  transition: 0.7s;
   margin: 3% 3% 3% 1%;
 }
 .card:hover {

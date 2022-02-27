@@ -215,6 +215,7 @@ input[type="text"] {
   flex: 33%;
   object-fit:scale-down;
   margin: 0 30px 0 0;
+  position:relative;
 }
 /*Box encasing most popular options*/
 .roundbox2 {

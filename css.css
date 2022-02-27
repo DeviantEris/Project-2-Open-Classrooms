@@ -262,6 +262,7 @@ input[type="text"] {
 }
 .starrydays {
   text-align: left;
+  font-size: 10px;
   text-indent: 3px;
   padding-left: 15px;
   line-height: 0.5;
@@ -270,11 +271,12 @@ input[type="text"] {
 }
 .starrydays2 {
   text-align: left;
-  text-indent: 4px;
+  text-indent: 5px;
+  font-size: 10px;
   padding-right: 65px;
-  line-height: 0.5;
+  line-height: -7.5;
   position: relative;
-  letter-spacing: -3.5px;
+  letter-spacing: -4.5px;
 }
 /*shifting the card images and text around!*/
 #shifters {
@@ -321,9 +323,8 @@ div.desc {
   padding-top: 8px;
 }
 div.desc2 {
-  padding: 1px;
+  padding: 11px;
   text-align: left;
-  text-indent: 15px;
   font-size: 12px;
 }
 section {

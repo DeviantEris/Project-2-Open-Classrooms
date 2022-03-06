@@ -286,6 +286,7 @@ input[type="text"] {
 .starrydays2 {
   text-align: left;
   text-indent: 5px;
+  padding-left:-5px;
   font-size: 10px;
   word-wrap: inherit;
   letter-spacing: -4.5px;
@@ -324,7 +325,6 @@ input[type="text"] {
   margin-top: -5%;
 }
 .vacationimages2 {
-  text-align: right;
   image-rendering: pixelated;
 }
 div.desc {
@@ -338,7 +338,6 @@ div.desc {
 div.desc2 {
   padding: 11px;
   text-align:left;
-  text-indent:5px;
   font-size: 12px;
 }
 section {

@@ -300,7 +300,6 @@ input[type="text"] {
   padding-right: 1px;
   padding-bottom: 2px;
   font: 16px;
-  text-align: right;
 }
 /*show more section*/
 #Showmore {
@@ -339,10 +338,8 @@ div.desc {
 div.desc2 {
   padding: 11px;
   text-align:left;
-  text-align-last:left;
   text-indent:5px;
   font-size: 12px;
-  padding-left:10px;
 }
 section {
   position: absolute;

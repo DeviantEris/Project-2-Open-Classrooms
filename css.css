@@ -273,9 +273,7 @@ input[type="text"] {
   text-align: left;
   text-indent: 5px;
   font-size: 10px;
-  padding-right: 65px;
   line-height: -7.5;
-  position: relative;
   letter-spacing: -4.5px;
 }
 /*shifting the card images and text around!*/
@@ -333,7 +331,7 @@ section {
   position: absolute;
   left: 10px;
 }
-.marsielleactiv {
+.marsielleactiv/*activities in Marseille section*/ {
   width: 1345px;
   height: 400px;
   padding: 1px;
@@ -344,7 +342,7 @@ section {
   position: relative;
   margin-top: 50px;
 }
-#action {
+#action /*activities in Marseille*/ {
   font-weight: 700;
   text-indent: 10px;
 }
@@ -391,19 +389,19 @@ section {
   height: 157px;
   margin: 1%;
   text-align: center;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   margin-bottom: 8%;
+  border-radius: 30;
 }
 .marsiellecard4:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 .marsielleimage {
-  border-radius: 20px 20px 20px 20px;
   image-rendering: pixelated;
 }
-.serpent {
+.serpent/*word alignment in the activities section*/ {
   text-align: left;
   font-weight: 700;
   text-indent: 10px;

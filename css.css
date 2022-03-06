@@ -247,6 +247,7 @@ input[type="text"] {
 }
 .hotspots {
   border-radius: 3px 3px 0 0;
+  border-radius: 25px 25px 0 0;
 }
 .hotspots2 {
   border-radius: 20px 0 0 20px;
@@ -350,7 +351,7 @@ section {
   width: 220px;
   height: 325px;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   margin: 0;
@@ -363,7 +364,7 @@ section {
   height: 159px;
   margin: 1%;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   justify-content: space-between;
@@ -377,7 +378,7 @@ section {
   height: 140px;
   margin: 1%;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
@@ -392,7 +393,7 @@ section {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   margin-bottom: 8%;
-  border-radius: 20;
+  border-radius: 25px;
 }
 .marsiellecard4:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);

@@ -190,7 +190,6 @@ input[type="text"] {
   background-color: white;
   margin: 20px 20px 20px 20px;
   border-radius: 15px;
-  line-height: 20px;
   font: 12px;
   margin-top: 15px;
   margin-right: 150px;
@@ -209,6 +208,7 @@ input[type="text"] {
 .roundbox1 {
   flex-basis: auto;
   width: 760px;
+  height: 500px;
   border-radius: 20px 20px 20px 20px;
   justify-content: left;
   background-color: #f2f2f2; /*grey!*/
@@ -264,17 +264,16 @@ input[type="text"] {
 .starrydays {
   text-align: left;
   font-size: 10px;
-  text-indent: 3px;
+  text-indent: 5px;
   padding-left: 15px;
-  line-height: 0.5;
-  position: absolute;
+  line-height:-10px;
   letter-spacing: -3.5px;
 }
 .starrydays2 {
   text-align: left;
   text-indent: 5px;
   font-size: 10px;
-  line-height: -7.5;
+  line: height -25px;
   letter-spacing: -4.5px;
 }
 /*shifting the card images and text around!*/
@@ -403,7 +402,8 @@ section {
 }
 .serpent/*word alignment in the activities section*/ {
   text-align: left;
-  font-weight: 700;
+  font-weight: 550;
+  font-size: 14px;
   text-indent: 10px;
 }
 .marsiellecolumn {

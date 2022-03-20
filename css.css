@@ -1,24 +1,22 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
-@media only screen and (width: 768px) {
+@media only screen and (width: 992px) {
   body {
     background-color: lightblue;
-    width:768px;
+    width:992px;
   }
 } 
 /*mobilephone sizing*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   body {
     background-color: rgb(194, 146, 206);
-    width:767px;
+    width:76px;
   } 
 }
 .itbegins {
   position: absolute;
 }
 body {
-  min-height: 100vh;
-  width: 992px;
   padding: 25px;
 }
 /*Find a place for your dream vacation!*/
@@ -426,7 +424,6 @@ section {
   margin: 12px;
 }
 .TheEnd {
-  width: 992px;
   background-color: #f2f2f2;
   height: 270px;
   line-height: 15px;

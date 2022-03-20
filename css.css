@@ -101,6 +101,18 @@ input[type="text"] {
   word-spacing: 80px;
   padding-right: 20px;
 }
+@media only screen and (max-width: 992px){
+ .thewords{
+   text-align: left;
+   margin-top: 25px;
+  }
+}
+@media only screen and (max-width:998px){
+  #Accommodations{
+    border-bottom: 1px solid blue;
+    border-top: none;
+  }
+}
 /* mouse over-lights, camera! */
 .smallcircle:hover {
   -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */

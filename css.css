@@ -1,6 +1,6 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
-@media only screen and (width: 992px) {
+@media only screen and (max-width: 992px) {
   body {
     background-color: lightblue;
     width:992px;
@@ -10,7 +10,7 @@
 @media only screen and (max-width: 768px) {
   body {
     background-color: rgb(194, 146, 206);
-    width:76px;
+width: 768px;
   } 
 }
 .itbegins {
@@ -51,6 +51,7 @@ body {
   font: 12px;
   text-decoration: none;
 }
+/*Coco is the 500 accommodations section*/
 #coco {
   font: 14px;
   position: relative;
